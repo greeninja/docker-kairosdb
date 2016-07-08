@@ -5,4 +5,4 @@ WORKDIR /opt/kairosdb/bin
 
 EXPOSE 8080 4242 2003 
 
-CMD kairosdb.sh run
+CMD /opt/kairosdb/bin/kairosdb.sh run
